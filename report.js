@@ -2,7 +2,7 @@
 (function (scope) {
   'use strict';
   const filename = 'АКТ_передачи_на_ремучасток_.ods';
-  const names = Object.freeze(['Лис-1У', 'Лис-2.0', 'Черника-2', 'Черника-1']);
+  const names = Object.freeze(['Лис-1У', 'Лис-2.0', 'Черника-2', 'Черника-1', 'ЕЖЕВИКА']);
   const escapeXML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
   function dateParts(now = new Date()) {
     // The date of the user's phone, including its selected timezone.
